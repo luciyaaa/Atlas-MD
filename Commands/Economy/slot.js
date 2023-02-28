@@ -18,7 +18,7 @@ module.exports = {
         m, 
         { text, prefix, isBotAdmin, isAdmin, mentionByTag, pushName, isCreator} 
     ) => {
-      var today = new Date();
+      var today = new Date();7ayq7quq68
       if (today.getDay() == 6 || today.getDay() == 5 || today.getDay() == 0){
           if (text == 'help') return m.reply(`*1:* Use ${prefix}slot to play\n\n*2:* You must have 🪙100 in your wallet\n\n*3:* If you don't have money in wallet then withdraw from your bank\n\n*4:* If you don't have money in your bank too then use economy features to gain money`)
           if (text == 'money') return m.reply(`*1:* Small Win --> +🪙20\n\n*2:* Small Lose --> -🪙20\n\n*3:* Big Win --> +🪙100\n\n*4:* Big Lose --> -🪙50\n\n*5:* 🎉 JackPot --> +🪙1000`)
